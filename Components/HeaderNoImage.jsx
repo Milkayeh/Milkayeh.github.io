@@ -1,19 +1,21 @@
 import React from 'react'
+import Image from 'next/image'
+import { assets } from '@/Assets/assets'
 import Link from 'next/link'
 
 
-const HeaderNoImage = () => {
+const Header = () => {
     return (
         <header>
             <div className='py-5 px-5 md:px-12 lg:px-28'>
-            <div className='items-center text-center'> 
-            <span className="ml-3 text-2xl font-semibold">Milkayeh&#39;s Research Centre</span>  </div>
-                
-                
+                <div className='flex justify-center'>
+                    <span className="text-2xl font-semibold">Milkayeh&#39;s Research Centre</span>
+                </div>
+
                 {/* Navbar */}
-                <nav className="text-center ">
-                        <ul>
-                            <li>
+                <nav className="text-center mt-4">
+                    <ul className="inline-flex space-x-4">
+                        <li>
                                 <a> ( </a>
                                 <Link href="/" className="hover:text-blue-600 transition-colors duration-200">Home</Link>
                                 <a> | </a>
@@ -25,14 +27,15 @@ const HeaderNoImage = () => {
                                 <a> ) </a>
                             </li>
                         </ul>
-                        
                 </nav>
+
+                <div className="flex justify-center mt-4">
+                </div>
                 {/* Empty div for spacing */}
-                <div className="w-50 "></div>
-                
+                <div className="w-50"></div>
             </div>
         </header>
     )
 }
 
-export default HeaderNoImage;
+export default Header;
