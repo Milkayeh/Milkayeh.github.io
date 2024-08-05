@@ -1,0 +1,34 @@
+{
+  "name": "lanemilki",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.10.0",
+    "lanemilki": "file:",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "rehype-highlight": "^7.0.0",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.0",
+    "remark-html": "^16.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-react": "^9.0.1",
+    "unified": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.1.0",
+    "@types/react": "18.3.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
