@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: "/Milkayeh.github.io",
-  output: "export",
-};
 
-module.exports = nextConfig;
+const nextConfig = {
+  reactStrictMode: true,
+  basePath: "/Milkayeh.github.io",
+}
+
+export default nextConfig
