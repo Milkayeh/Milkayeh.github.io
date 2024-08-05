@@ -16,18 +16,17 @@ const Header = () => {
                 <nav className="text-center mt-4">
                     <ul className="inline-flex space-x-4">
                         <li>
-                            <Link href="/" className="hover:text-blue-600 transition-colors duration-200">Home</Link>
-                        </li>
-                        <li>
-                            <Link href="/about" className="hover:text-blue-600 transition-colors duration-200">About Me</Link>
-                        </li>
-                        <li>
-                            <Link href="/blog" className="hover:text-blue-600 transition-colors duration-200">Blog</Link>
-                        </li>
-                        <li>
-                            <Link href="/contact" className="hover:text-blue-600 transition-colors duration-200">Find Me</Link>
-                        </li>
-                    </ul>
+                                <a> ( </a>
+                                <Link href="/" className="hover:text-blue-600 transition-colors duration-200">Home</Link>
+                                <a> | </a>
+                                <Link href="/about" className="hover:text-blue-600 transition-colors duration-200">About Me</Link>
+                                <a> | </a>
+                                <Link href="/blog" className="hover:text-blue-600 transition-colors duration-200">Blog</Link>
+                                <a> | </a>
+                                <Link href="/contact" className="hover:text-blue-600 transition-colors duration-200">Find Me</Link>
+                                <a> ) </a>
+                            </li>
+                        </ul>
                 </nav>
 
                 <div className="flex justify-center mt-4">
