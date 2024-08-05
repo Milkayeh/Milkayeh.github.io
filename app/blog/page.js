@@ -14,7 +14,7 @@ export default async function BlogIndex() {
         <ul>
         {blogs.reverse().map((blog) => (
             <li key={blog.slug} className='list-disc'>
-              <Link className='className="hover:text-blue-600 transition-colors duration-200"' href={`/blog/${blog.slug}`}>
+              <Link className='hover:text-blue-600 transition-colors duration-200' href={`/blog/${blog.slug}`}>
                 {blog.title} | {blog.date}
               </Link>
             </li>
